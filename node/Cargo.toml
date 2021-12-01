@@ -29,6 +29,7 @@ codec = { package = "parity-scale-codec", version = "2.0.0" }
 structopt = "0.3.8"
 serde = { version = "1.0.119", features = ["derive"] }
 hex-literal = "0.3.1"
+service = { package = "oak-service", path = "./service", default-features = false }
 
 # RPC related Dependencies
 jsonrpc-core = "18.0.0"

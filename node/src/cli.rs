@@ -1,4 +1,4 @@
-use crate::chain_spec;
+use service::chain_spec;
 use std::path::PathBuf;
 use structopt::StructOpt;
 
